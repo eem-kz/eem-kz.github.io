@@ -1,6 +1,4 @@
 (function($) {
-
-
     // Smooth scrolling using jQuery easing
     $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function () {
         if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -63,6 +61,11 @@
         e.preventDefault();
         $(this).toggleClass('menu-btn_active');
         $('.menu-nav').toggleClass('menu-nav_active');
+    });
+
+    $('.nav-link').on('click', function () {
+        $('.menu-nav').removeClass('menu-nav_active');
+
     });
 
 })(jQuery);

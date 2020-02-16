@@ -65,10 +65,10 @@
               <a class="nav-link js-scroll-trigger" href="#books">Кітапхана</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Байланыс</a>
+              <a class="nav-link js-scroll-trigger" href="#atazholy">Ата жолы</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Байланыс</a>
             </li>
           </ul>
         </div>
@@ -100,13 +100,15 @@
 <section id="books" class="books-section bg-primary">
   <div class="container">
     <h2 class="text-center books-header">Кітаптар</h2>
-    <p class="small books-description text-center my-lg-4 my-3">
+    <p class="small books-description text-center mt-lg-4 mt-3">
       Тылсым тапсырмасымен бүгінге дейін хатқа түсірілген 11 атаумен, 33 кітап болып басылып шығатын кітаптар жүйесі
       тұр. Бұл кітаптарда ата-бабаларымыз меңгерген жаратылыс ілімі мен құпия сырлар баяндалады. Математикалық,
       астрономиялық есептер мен геометриялық сызбалар, әлі де айтуға болмайтын, бүгінгі Ғылым әлі жете қоймаған құпия
-      ақпараттар тұр. Жалпы аманат бойынша 49 кітап жазылып, сол кітаптармен тылсымның 1001 есігі ашылады екен. Кітаптар
-      ілім
-      арқылы Құран үнімен жазылдғансоң белгілі бір тазалықты, тақуалықты талап етеді.
+      ақпараттар тұр.
+    </p>
+    <p class="books-description text-center mb-3 mb-lg-5">
+      Жалпы аманат бойынша 49 кітап жазылып, сол кітаптармен тылсымның 1001 есігі ашылады екен. Кітаптар
+      ілім арқылы Құран үнімен жазылдғансоң белгілі бір тазалықты, тақуалықты талап етеді.
     </p>
     <!--<hr class="divider my-3 my-lg-4">-->
     <div class="row books-block">
@@ -177,9 +179,9 @@
 </section>
 
 <!-- Services Section -->
-<section class="page-section section-overlay" id="services">
+<section class="page-section section-overlay" id="atazholy">
   <div class="container">
-    <h2 class="text-center text-white mt-0">Ата жолы түсінігі</h2>
+    <h2 class="text-center text-white mb-3 mb-lg-4">Ата жолы түсінігі</h2>
     <!--<hr class="divider my-4">-->
     <div class="row justify-content-center">
       <div class="col-lg-10 col-12 ">
@@ -208,14 +210,33 @@
     </div>
   </div>
 </section>
+<!---->
+<section id="contact" class="s-contact section-overlay">
+    <div class="container">
 
+      <div class="row justify-content-center">
+
+          <div class="col-md-10 col-12 py-md-3 px-md-4 contact-form" >
+            <h2 class="text-center text-white my-lg-5 my-md-4 my-3">Кері байланыс</h2>
+
+            <form class="form">
+              <input class="name" type="text" placeholder="Аты-жөніңіз">
+              <input class="email" type="email" placeholder="E-мейл">
+              <input class="phone" type="text" placeholder="Тел. номері">
+              <textarea class="message" name="message" id="message" cols="30" rows="10" placeholder="Хабарлама"></textarea>
+              <input class="submit-btn" type="submit" value="Жіберу">
+            </form>
+          </div>
+      </div>
+    </div>
+</section>
 
 <!-- Footer -->
 <footer class="section-overlay py-5">
   <div class="container">
     <div class="row">
-      <div class="col-md-5">
-        <p>Сайт материалдарын пайдалану шарты:</p>
+      <div class="col-md-8 col-12">
+        <p class="about-header">Сайт материалдарын пайдалану шарты:</p>
         <p class="about-text">
           Көшіріп басу, сілтеме беру, материалды жариялау (фото,видео,аудио жазбаларды қоса) atazholy.kz сайтындағы
           мақала авторының хат түріндегі рұқсаты берілгеннен кейін ғана жүзеге асырылады. Үшінші тараптың жарияланымды
@@ -225,8 +246,22 @@
 
 
       </div>
-      <div class="col-md-5"></div>
-      <div class="col-md-2"></div>
+      <div class="col-md-4 col-12">
+        <div class="col-auto social-buttons">
+          <!--Facebook-->
+          <a href="#" target="_blank" class="btn-floating btn-lg btn-fb" type="button" role="button"><i
+                  class="fab fa-facebook-f"></i></a>
+          <!--Twitter-->
+          <a href="#" target="_blank" class="btn-floating btn-lg btn-tw" type="button" role="button"><i
+                  class="fab fa-twitter"></i></a>
+          <!--Youtube-->
+          <a href="#" target="_blank" class="btn-floating btn-lg btn-yt" type="button" role="button"><i
+                  class="fab fa-youtube"></i></a>
+          <a href="#" target="_blank" class="btn-floating btn-lg btn-reddit" type="button" role="button"><i
+                  class="fab fa-telegram"></i></a>
+
+        </div><!-- /.social-buttons -->
+      </div>
     </div>
   </div>
 </footer>
