@@ -1,0 +1,14 @@
+/node_modules/
+/.git/
+/.idea/
+/**/Thumbs.db
+/**/*.DS_Store
+
+
+/app/
+/books/
+
+/new-books/sass/
+/new-books/img/_src/
+gulpfile.js
+*.txt
