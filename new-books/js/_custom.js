@@ -12,7 +12,7 @@
                     }, 1000, "easeInOutExpo");
                 }else {
                     $('html, body').animate({
-                        scrollTop: (target.offset().top - 66)
+                        scrollTop: (target.offset().top - 58)
                     }, 1000, "easeInOutExpo");
                 }
 
@@ -26,7 +26,7 @@
     // Activate scrollspy to add active class to navbar items on scroll
     $('body').scrollspy({
         target: '#mainNav',
-        offset: 66
+        offset: 60
     });
 
     // Collapse Navbar
@@ -65,8 +65,14 @@
 
     $('.nav-link').on('click', function () {
         $('.menu-nav').removeClass('menu-nav_active');
+        $('.menu-btn').removeClass('menu-btn_active');
 
     });
 
+
+
 })(jQuery);
 
+$(window).on('load', function() {
+    $('.preloader').delay(1000).fadeOut('slow');
+});
