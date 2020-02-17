@@ -61,11 +61,14 @@
         e.preventDefault();
         $(this).toggleClass('menu-btn_active');
         $('.menu-nav').toggleClass('menu-nav_active');
+        $('body').toggleClass('fix');
     });
 
     $('.nav-link').on('click', function () {
         $('.menu-nav').removeClass('menu-nav_active');
         $('.menu-btn').removeClass('menu-btn_active');
+        $('body').removeClass('fix');
+
 
     });
 
