@@ -12,3 +12,4 @@
 /new-books/img/_src/
 gulpfile.js
 *.txt
+_*.sass
