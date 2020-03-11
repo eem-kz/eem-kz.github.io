@@ -14,6 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 // "fullscreen",
                 "theme-black",
                 "border-full",
+                "shadow-page"
             ],
             // "dropdown": true,
             "counters": true,
