@@ -9,7 +9,9 @@
 /books/
 
 /new-books/sass/
+/new-books/sass2/
 /new-books/img/_src/
 gulpfile.js
 *.txt
 _*.sass
+*.zip
