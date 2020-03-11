@@ -7,13 +7,14 @@ document.addEventListener('DOMContentLoaded', function () {
         document.querySelector('#menu'),
         {
             "extensions": [
-                "pagedim-black",
+                // "pagedim-black",
                 // "position-top",
                 // "position-front",
                 "multiline",
                 // "fullscreen",
                 "theme-black",
                 "border-full",
+                "shadow-page",
             ],
             // "dropdown": true,
             "counters": true,
@@ -51,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     content: [
                         "prev",
                         // "title",
-                        // 'breadcrumbs',
+                        'breadcrumbs',
                     ]
                 }
             ],
@@ -83,12 +84,12 @@ document.addEventListener('DOMContentLoaded', function () {
         scroll: false
     });
 
-    $('.menu-btn').on('click', function (e) {
+   /* $('.menu-btn').on('click', function (e) {
         e.preventDefault();
         $(this).toggleClass('menu-btn_active');
         $('.menu-nav').toggleClass('menu-nav_active');
         $('body').toggleClass('fix');
-    });
+    });*/
 
 });
 

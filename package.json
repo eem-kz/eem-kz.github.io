@@ -27,6 +27,7 @@
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "^5.12.1",
 		"mburger-css": "^1.3.3",
+		"mhead-js": "^2.0.0",
 		"mmenu-js": "^8.4.7"
 	}
 }

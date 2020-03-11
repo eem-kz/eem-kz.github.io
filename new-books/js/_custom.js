@@ -16,7 +16,7 @@
                     }, 1000, "easeInOutExpo");
                 }
 
-                return false;
+                return true;
             }
         }
     });
@@ -63,7 +63,7 @@
         $('body').toggleClass('fix');
     });
 
-    $('.nav-link').on('click', function () {
+    $('.nav-link,.dropdown-item').not('.dropdown-toggle').on('click', function () {
         $('.menu-nav').removeClass('menu-nav_active');
         $('.menu-btn').removeClass('menu-btn_active');
         $('body').removeClass('fix');
