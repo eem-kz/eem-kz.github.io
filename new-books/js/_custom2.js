@@ -29,13 +29,13 @@ document.addEventListener('DOMContentLoaded', function () {
                  "use": true,
                  // "position": "right",
                  "top": [
-                     "<a href='#/'><i class=\"fas fa-home\"></i></a>",
-                     "<a href='#/'><i class='fas fa-user'></i></a>"
+                     "<a href='/'><i class='fas fa-home'></i></a>",
                  ],
                  "bottom": [
-                     "<a href='#/'><i class='fab fa-twitter'></i></a>",
-                     "<a href='#/'><i class='fab fa-facebook-f'></i></a>",
-                     "<a href='#/'><i class='fab fa-youtube'></i></a>"
+                     "<a target='_blank' title='Телеграмм канал' href='https://t.me/atazholy'><i class='fab fa-telegram'></i></a>",
+                     "<a target='_blank' href='https://twitter.com/AtazholyKZ'><i class='fab fa-twitter'></i></a>",
+                     "<a target='_blank' href='https://www.facebook.com/atazholy/'><i class='fab fa-facebook-f'></i></a>",
+                     "<a target='_blank' href='https://www.youtube.com/channel/UCG3yvnpQHKPb4WX9fHZ6_9A/videos'><i class='fab fa-youtube'></i></a>"
                  ]
              },
 
